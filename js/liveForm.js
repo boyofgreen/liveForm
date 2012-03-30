@@ -23,7 +23,9 @@ var checkMyValidity = function(){
     
     };
 //check to see if supports it
-if(document.createElement('progress').max != undefined){console.log('working');pageMeter.style.display = 'block';}
+
+
+if(document.createElement('progress').max !== undefined){console.log('working');document.querySelector('.meterComponent').style.display = 'block';}
 
 var myInputs = document.myForm.querySelectorAll('input');
 for (var i = 0; i< myInputs.length; i++) { 

@@ -150,23 +150,4 @@ fieldset label.infield /* .infield label added by JS */ {
 
 
 
-/*state specific css  */
-
-
-
-input:required {
-     border: 1px solid #16cc16;
-    -moz-box-shadow: 0px 0px 11px yellow;
-    -webkit-box-shadow: 0px 0px 11px yellow;
-    box-shadow: 0px 0px 11px yellow;
-    outline: none;
-}
-input:invalid {
-     border: 1px solid #f5ba0a; 
-    -moz-box-shadow: 0px 0px 11px  #f5ba0a;
-    -webkit-box-shadow: 0px 0px 11px  #f5ba0a;
-    box-shadow: 0px 0px 11px  #f5ba0a;
-    outline:none;
-}
-
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="css/liveForm.css"  rel="stylesheet" />
+
+
+</head>
+<body>
+
+<div id="registration">
+ <h2>Create an Account</h2>
+ <div class="meterComponent">
+ <label for="myMeter">level complete</label>
+ <h3 class="completeLabel"> level complete </h3>
+ 
+ <progress class="completeMeter" min="0" max="100" low="0"  high="10" value="0" ></progress>
+</div>
+ <form id="RegisterUserForm" action="" name="myForm" method="post">
+ <fieldset>
+     <p>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" class="text" placeholder="Name" value="" required />
+     </p>
+
+     <p>
+         <label for="tel">Phone Number</label>
+         <input id="tel" name="tel" type="tel" class="text" placeholder="Phone Number" value="" pattern="\d\d\d-\d\d\d-\d\d\d\d" required />
+     </p>
+    
+     <p>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" class="text" placeholder="Email" value="" required />
+     </p>
+    
+     <p>
+        <label for="password">Password</label>
+        <input id="password" name="password" class="text" placeholder="Password" type="password" min="5" max="15"  required />
+     </p>
+
+ <p><input id="acceptTerms" name="acceptTerms" type="checkbox" required />
+ <span I agree to the <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a> </span>
+ <label for="acceptTerms">
+ I agree to the <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a>
+ </label>
+ </p>
+
+ <p>
+ <button id="registerNew" type="submit">Register</button>
+ </p>
+ </fieldset>
+
+ </form>
+ </div>
+  <a href="http://c9.io/boyofgreen/liveform/workspace/index.html">next demo</a>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
